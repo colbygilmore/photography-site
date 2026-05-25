@@ -33,8 +33,8 @@ export default function HeroCarousel() {
   }, []);
 
   return (
-    <section className="relative overflow-hidden rounded-[3rem] border border-slate-800/80 bg-slate-950/90 shadow-2xl shadow-slate-950/40">
-      <div className="relative h-[24rem] sm:h-[32rem]">
+    <section className="relative overflow-hidden border border-slate-800/80 bg-slate-950/90 shadow-2xl shadow-slate-950/40">
+      <div className="relative h-[31.5rem] sm:h-[42rem] md:h-[48rem]">
         {slides.map((slide, index) => (
           <div
             key={slide.title}

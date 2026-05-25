@@ -11,7 +11,9 @@ const highlights = [
 export default function HomePage() {
   return (
     <section className="space-y-12">
-      <HeroCarousel />
+      <div className="relative left-1/2 -translate-x-1/2 w-screen max-w-none">
+        <HeroCarousel />
+      </div>
 
       <div className="grid gap-8 lg:grid-cols-[1.5fr_1fr] lg:items-center">
         <div className="space-y-6 rounded-3xl bg-slate-900/90 p-8 shadow-2xl shadow-slate-900/40 ring-1 ring-slate-700/80">
