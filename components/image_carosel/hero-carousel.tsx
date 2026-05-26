@@ -9,20 +9,15 @@ const slides = [
     image: '/photos/shipRockRoad.png'
   },
   {
-    title: 'Editorial Portraits',
-    subtitle: 'Bold lighting and thoughtful composition.',
-    image: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1500&q=80'
+    title: 'Navajo Rock',
+    subtitle: 'New Mexico landscape in black and white.',
+    image: '/photos/NMnavajoRock.01_bw.jpg'
   },
   {
-    title: 'Landscape Storytelling',
-    subtitle: 'Wide scenes with dramatic skies and texture.',
-    image: 'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f34?auto=format&fit=crop&w=1500&q=80'
+    title: 'Colorado City',
+    subtitle: 'Utah landscape and city life.',
+    image: '/photos/UTcoloradoCity.01 copy.jpg'
   },
-  {
-    title: 'City Atmosphere',
-    subtitle: 'Nighttime captures with vivid urban glow.',
-    image: 'https://images.unsplash.com/photo-1493244040629-496f6d136cc3?auto=format&fit=crop&w=1500&q=80'
-  }
 ];
 
 export default function HeroCarousel() {
