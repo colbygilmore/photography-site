@@ -1,4 +1,4 @@
-import HeroCarousel from '../components/hero-carousel';
+import HeroCarousel from '../components/image_carosel/hero-carousel';
 import Link from 'next/link';
 
 const highlights = [
