@@ -40,7 +40,7 @@ export default function HeroCarousel() {
             className={`absolute inset-0 transition-opacity duration-1000 ${index === activeIndex ? 'opacity-100' : 'opacity-0'}`}
           >
             <Image src={slide.image} alt={slide.title} fill className="object-cover" priority={index === activeIndex} />
-            <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/30 to-transparent" />
+            {/* <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/30 to-transparent" />
             <div className="absolute inset-x-0 bottom-10 px-6 text-white sm:px-10">
               <p className="text-sm uppercase tracking-[0.32em] text-amber-300">Portfolio hero</p>
               <h1 className="mt-4 max-w-3xl text-4xl font-semibold tracking-tight sm:text-5xl">
@@ -49,7 +49,7 @@ export default function HeroCarousel() {
               <p className="mt-4 max-w-2xl text-base leading-8 text-slate-200 sm:text-lg">
                 {slide.subtitle}
               </p>
-            </div>
+            </div> */}
           </div>
         ))}
       </div>

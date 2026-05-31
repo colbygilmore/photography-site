@@ -1,4 +1,5 @@
 import HeroCarousel from '../components/image_carosel/hero-carousel';
+import Image from 'next/image';
 import Link from 'next/link';
 
 const highlights = [
@@ -18,22 +19,18 @@ export default function HomePage() {
       <div className="grid gap-8 lg:grid-cols-[1.5fr_1fr] lg:items-center">
         <div className="space-y-6 rounded-3xl bg-slate-900/90 p-8 shadow-2xl shadow-slate-900/40 ring-1 ring-slate-700/80">
           <div className="max-w-xl space-y-4">
-            <p className="text-sm uppercase tracking-[0.32em] text-amber-300">Photography Portfolio</p>
+            <p className="text-sm uppercase tracking-[0.32em] text-amber-300">Photographer Bio</p>
             <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-              Capture mood, light, and story in every frame.
+              Colby Gilmore
             </h1>
+            <div className="relative w-[35%] overflow-hidden rounded-2xl">
+              <Image src="/photos/homepageBioPhoto.jpg" alt="Colby Gilmore" width={280} height={175} className="w-full object-cover" />
+            </div>
             <p className="text-lg leading-8 text-slate-300">
               Showcase your digital work with a modern, accessible portfolio built for galleries, editorial clients, and collaborators.
             </p>
           </div>
 
-          <div className="grid gap-4 sm:grid-cols-2">
-            {highlights.map((item) => (
-              <div key={item} className="rounded-3xl border border-slate-700/80 bg-slate-950/80 p-5">
-                <p className="text-sm leading-6 text-slate-300">{item}</p>
-              </div>
-            ))}
-          </div>
 
           <div className="flex flex-col gap-4 sm:flex-row">
             <Link href="/work" className="inline-flex items-center justify-center rounded-full bg-amber-400 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-amber-300">
