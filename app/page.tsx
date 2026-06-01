@@ -22,7 +22,7 @@ export default function HomePage() {
                 <Image src="/photos/homepageBioPhoto.jpg" alt="Colby Gilmore" width={280} height={175} className="w-full object-cover" />
               </div>
               <p className="text-lg leading-8 text-slate-300">
-                The mountain west has been my backyard for over 20 years — from the red rock canyons of the south to the wildlife corridors of the north. I shoot landscapes, wildlife, and action sports with an eye shaped by decades of film and digital work. I&apos;m always chasing the light that makes a scene impossible to ignore.
+                The United States mountain west has been my backyard for over 20 years — from the red rock canyons of the south to the wildlife corridors of the north. I shoot landscapes, wildlife, and action sports with an eye shaped by decades of film and digital work. I&apos;m always chasing the light that makes a scene impossible to ignore.
               </p>
             </div>
           </div>
