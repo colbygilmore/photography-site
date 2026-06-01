@@ -10,7 +10,7 @@ export default function AboutPage() {
       </div>
 
       <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
-        <div className="rounded-3xl bg-slate-900/90 p-8 shadow-xl shadow-slate-900/30 ring-1 ring-slate-700/80">
+        <div className="rounded-3xl bg-[#000000] p-8 shadow-xl shadow-slate-900/30 ring-1 ring-[#000000]">
           <h2 className="text-2xl font-semibold text-white">Philosophy</h2>
           <p className="mt-4 text-slate-300 leading-7">
             Great photography begins with intention. I focus on clean, cinematic compositions that let the subject breathe, using natural light and authentic color to bring each scene to life.
@@ -20,7 +20,7 @@ export default function AboutPage() {
           </p>
         </div>
 
-        <div className="space-y-6 rounded-3xl bg-slate-900/90 p-8 shadow-xl shadow-slate-900/30 ring-1 ring-slate-700/80">
+        <div className="space-y-6 rounded-3xl bg-[#000000] p-8 shadow-xl shadow-slate-900/30 ring-1 ring-[#000000]">
           <div>
             <h2 className="text-2xl font-semibold text-white">Capabilities</h2>
             <ul className="mt-4 space-y-3 text-slate-300">

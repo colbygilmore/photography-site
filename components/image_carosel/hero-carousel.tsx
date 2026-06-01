@@ -4,11 +4,6 @@ import Image from 'next/image';
 
 const slides = [
   {
-    title: 'Ship Rock Road',
-    subtitle: 'New work added for the hero carousel.',
-    image: '/photos/shipRockRoad.png'
-  },
-  {
     title: 'Navajo Rock',
     subtitle: 'New Mexico landscape in black and white.',
     image: '/photos/NMnavajoRock.01_bw.jpg'
@@ -17,6 +12,11 @@ const slides = [
     title: 'Colorado City',
     subtitle: 'Utah landscape and city life.',
     image: '/photos/UTcoloradoCity.01 copy.jpg'
+  },
+  {
+    title: 'Ship Rock Road',
+    subtitle: 'New work added for the hero carousel.',
+    image: '/photos/shipRockRoad.png'
   },
 ];
 
