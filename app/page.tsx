@@ -10,19 +10,19 @@ export default function HomePage() {
         <HeroCarousel />
       </div>
 
-      <div className="grid gap-8 lg:grid-cols-[1.5fr_1fr] lg:items-center">
+      <div className="flex flex-col gap-8">
         <div className="space-y-6 rounded-3xl bg-[#000000] p-8 shadow-2xl shadow-slate-900/40 ring-1 ring-[#000000]">
-          <div className="max-w-xl space-y-4">
+          <div className="space-y-4">
             <p className="text-sm uppercase tracking-[0.32em] text-[#666666]">Photographer Bio</p>
-            <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">
+            <h1 className="hidden text-4xl font-semibold tracking-tight text-white sm:text-5xl">
               Colby Gilmore
             </h1>
             <div className="flex items-start gap-6">
-              <div className="relative w-[35%] shrink-0 overflow-hidden rounded-2xl">
-                <Image src="/photos/homepageBioPhoto.jpg" alt="Colby Gilmore" width={280} height={175} className="w-full object-cover" />
+              <div className="relative w-[12%] shrink-0 overflow-hidden rounded-2xl">
+                <Image src="/photos/homepageBioPhoto.jpg" alt="Colby Gilmore" width={98} height={62} className="w-full object-cover" />
               </div>
               <p className="text-lg leading-8 text-slate-300">
-                The United States mountain west has been my backyard for over 20 years — from the red rock canyons of the south to the wildlife corridors of the north. I shoot landscapes, wildlife, and action sports with an eye shaped by decades of film and digital work. I&apos;m always chasing the light that makes a scene impossible to ignore.
+                The mountain west has been my backyard for over 20 years — from the red rock canyons of the south to the wildlife corridors of the north. I shoot landscapes, wildlife, and action sports with an eye shaped by decades of film and digital work. I&apos;m always chasing the light that makes a scene impossible to ignore.
               </p>
             </div>
           </div>
