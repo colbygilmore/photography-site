@@ -1,12 +1,19 @@
+import Image from 'next/image';
+
 export default function AboutPage() {
   return (
     <section className="space-y-10">
       <div className="space-y-3">
-        <p className="text-sm uppercase tracking-[0.32em] text-amber-300">About Me</p>
-        <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">A photographer with an eye for story and atmosphere.</h1>
-        <p className="max-w-2xl text-base leading-7 text-slate-300">
-          I create work that helps brands, artists, and clients tell their story visually. Every image on this site is crafted to highlight mood, detail, and the moments that matter most.
-        </p>
+        <p className="text-sm uppercase tracking-[0.32em] text-[#666666]">Photographer Bio</p>
+        <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">Colby Gilmore</h1>
+        <div className="flex flex-col gap-6 sm:flex-row sm:items-start">
+          <div className="shrink-0">
+            <Image src="/photos/homepageBioPhoto.jpg" alt="Colby Gilmore" width={220} height={280} className="rounded-2xl object-cover" />
+          </div>
+          <p className="text-base leading-7 text-slate-300">
+            The mountain west has been my backyard for over 20 years — from the red rock canyons of the south to the wildlife corridors of the north. I shoot landscapes and wildlife with an eye shaped by decades of film and digital work. I&apos;m always chasing the light that makes a scene impossible to ignore.
+          </p>
+        </div>
       </div>
 
       <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
