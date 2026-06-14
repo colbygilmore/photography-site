@@ -23,10 +23,7 @@ export default function HomePage() {
               </div>
               <div className="space-y-4 text-lg leading-8 text-slate-300">
                 <p>
-                  Welcome, and thanks for stopping by! This site is a showcase for my landscape series — images drawn from years of wandering the midwest plains, the rugged mountain west, and the stark beauty of the desert. Not all of the work here is digital. You&apos;ll also find images captured on 35mm — black and white, color, and slide film — each bringing a distinct look and feel that only film can deliver.
-                </p>
-                <p>
-                  Take a look around, and if something catches your eye, prints are available for purchase.
+                  Welcome to the online home of my landscape photography. Over the past 25 years I&apos;ve traveled the midwest plains, the mountain west, and the desert to build this collection. Some of the best memories of my life have been made behind the camera, and I can&apos;t wait to share them with you. All the best - Colby.
                 </p>
               </div>
             </div>

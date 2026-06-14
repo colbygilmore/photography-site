@@ -10,9 +10,29 @@ export default function AboutPage() {
           <div className="shrink-0">
             <Image src="/photos/homepageBioPhoto.jpg" alt="Colby Gilmore" width={220} height={280} className="rounded-2xl object-cover" />
           </div>
-          <p className="text-base leading-7 text-slate-300">
-            The mountain west has been my backyard for over 20 years — from the red rock canyons of the south to the wildlife corridors of the north. I shoot landscapes and wildlife with an eye shaped by decades of film and digital work. I&apos;m always chasing the light that makes a scene impossible to ignore.
-          </p>
+          <div className="space-y-4 text-base leading-7 text-slate-300">
+            <p>
+              I started my photography journey in the late 1980s with a clunky Polaroid 600 that my family took on almost every vacation from Kansas to Colorado. Looking back, I think that&apos;s really where my love for the mountains began.
+            </p>
+            <p>
+              In the 90s I graduated to a disposable point-and-shoot that rarely came back from the print lab looking the way I hoped. During my sophomore year of high school I took a black and white photography class and upgraded to the trusty Pentax K1000. I genuinely enjoyed photography, but truth be told, I was a far better graphite pencil and oil painter than I was a photographer.
+            </p>
+            <p>
+              Life took over and I set the camera down for nearly eight years. I went to college and studied horticulture, focusing on landscape architecture and construction. Somewhere in my early twenties it hit me — this path would never lead me back to photography or the mountains. So I went back to school and earned a BFA with a focus in photography and graphic design, including web design and development back when that was barely considered a real career. That&apos;s where my photography grew tenfold.
+            </p>
+            <p>
+              My first black and white course in 2001 changed everything. I fell in love with the full lifecycle of photography — from ideation and composition, to capturing a quality image, to my favorite part: the darkroom. Fueling that passion was a job at an iconic photography store in my hometown, where the pros — newspaper photographers, sports team shooters, hospital and aerospace industry clients — came in as much to hang out and talk shop as they did to buy anything.
+            </p>
+            <p>
+              At the time I was shooting a Canon Rebel 35mm with a 4.5–5.6 lens, right at the dawn of the digital age. I got to experience the early days of Photoshop and the digital darkroom firsthand. Eventually I picked up a Canon 40D — one of the first available in Wichita — and took it absolutely everywhere until it finally gave out around 2010, worn down by the sheer number of frames it had captured.
+            </p>
+            <p>
+              That&apos;s when I moved to full-frame with a Canon 6D, which I still shoot with today, alongside the latest iPhone for computational photography.
+            </p>
+            <p>
+              Although I&apos;m featuring almost all digital photography today, there will be 35MM B&W, color and slide film images coming in the near future.
+            </p>
+          </div>
         </div>
       </div>
 

@@ -27,7 +27,7 @@ export default function WorkPage() {
   return (
     <section className="space-y-10">
       <div className="space-y-3">
-        <p className="text-sm uppercase tracking-[0.32em] text-amber-300">Work</p>
+        <p className="text-sm uppercase tracking-[0.32em] text-[#666666]">Landscape Photography Galleries</p>
         <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">Featured photography galleries</h1>
         <p className="max-w-2xl text-base leading-7 text-slate-300">
           Explore a selection of curated projects that show how light, composition, and atmosphere come together across different genres.

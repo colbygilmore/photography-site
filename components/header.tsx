@@ -2,8 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const navItems = [
-  { href: '/work', label: 'Work' },
-  { href: '/about', label: 'About Me' }
+  { href: '/work', label: 'Galleries' },
+  { href: '/about', label: 'About' }
 ];
 
 export default function Header() {
