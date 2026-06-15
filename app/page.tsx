@@ -44,14 +44,14 @@ export default function HomePage() {
 <div className="mt-4 grid grid-cols-1 gap-10 sm:grid-cols-2">
             <div className="relative overflow-hidden">
               <Image src="/photos/glenCanyonDam.jpg" alt="Glen Canyon Dam" width={400} height={250} className="w-full object-cover" />
-              <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Placeholder</span>
+              <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Water</span>
             </div>
             <div className="relative overflow-hidden">
-              <Image src="/photos/glenCanyonDam.jpg" alt="Glen Canyon Dam" width={400} height={250} className="w-full object-cover" />
-              <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Placeholder</span>
+              <Image src="/photos/zion_03.jpg" alt="Zion" width={400} height={250} className="w-full object-cover" />
+              <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Desert</span>
             </div>
             <div className="relative overflow-hidden">
-              <Image src="/photos/glenCanyonDam.jpg" alt="Glen Canyon Dam" width={400} height={250} className="w-full object-cover" />
+              <Image src="/photos/zion_02.jpg" alt="Zion" width={400} height={250} className="w-full object-cover" />
               <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Placeholder</span>
             </div>
             <div className="relative overflow-hidden">

@@ -1,27 +1,4 @@
-import GalleryCard from '../../components/gallery-card';
-
-const galleryItems = [
-  {
-    title: 'Coastal Light',
-    description: 'A quiet sunrise moment with warm coastal tones.',
-    image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80'
-  },
-  {
-    title: 'City Motion',
-    description: 'Nighttime cityscape with motion blur and ambient glow.',
-    image: 'https://images.unsplash.com/photo-1493244040629-496f6d136cc3?auto=format&fit=crop&w=1200&q=80'
-  },
-  {
-    title: 'Portrait Depth',
-    description: 'Intimate portrait lighting with strong contrast.',
-    image: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80'
-  },
-  {
-    title: 'Landscape Story',
-    description: 'Wide-angle landscape with dramatic skies and layered textures.',
-    image: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80'
-  }
-];
+import Image from 'next/image';
 
 export default function WorkPage() {
   return (
@@ -34,10 +11,25 @@ export default function WorkPage() {
         </p>
       </div>
 
-      <div className="grid gap-6 xl:grid-cols-2">
-        {galleryItems.map((item) => (
-          <GalleryCard key={item.title} item={item} />
-        ))}
+      <div className="rounded-3xl bg-[#000000] p-8 shadow-xl shadow-slate-900/30 ring-1 ring-[#000000]">
+        <div className="mt-4 grid grid-cols-1 gap-10 sm:grid-cols-2">
+          <div className="relative overflow-hidden">
+            <Image src="/photos/glenCanyonDam.jpg" alt="Glen Canyon Dam" width={400} height={250} className="w-full object-cover" />
+            <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Water Photography</span>
+          </div>
+          <div className="relative overflow-hidden">
+            <Image src="/photos/zion_02.jpg" alt="Zion" width={400} height={250} className="w-full object-cover" />
+            <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Placeholder</span>
+          </div>
+          <div className="relative overflow-hidden">
+            <Image src="/photos/glenCanyonDam.jpg" alt="Glen Canyon Dam" width={400} height={250} className="w-full object-cover" />
+            <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Placeholder</span>
+          </div>
+          <div className="relative overflow-hidden">
+            <Image src="/photos/glenCanyonDam.jpg" alt="Glen Canyon Dam" width={400} height={250} className="w-full object-cover" />
+            <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Placeholder</span>
+          </div>
+        </div>
       </div>
     </section>
   );
