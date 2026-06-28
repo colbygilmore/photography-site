@@ -59,10 +59,10 @@ export default function HomePage() {
               <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Placeholder</span>
             </div>
           </div>
-          <p className="mt-4 text-slate-300 leading-7">
+          <p className="hidden mt-4 text-slate-300 leading-7">
             A focused photography portfolio brings all your best work into one place for clients to explore. It creates a professional first impression, builds trust, and increases your chances of booking future projects.
           </p>
-          <ul className="mt-6 space-y-4 text-slate-300">
+          <ul className="hidden mt-6 space-y-4 text-slate-300">
             <li className="flex gap-3">
               <span className="mt-1 h-2.5 w-2.5 rounded-full bg-amber-400" />
               Curated presentation for galleries and commissions

@@ -15,13 +15,13 @@ export default function AboutPage() {
               I started my photography journey in the late 1980s with a clunky Polaroid 600 that my family took on almost every vacation from Kansas to Colorado. Looking back, I think that&apos;s really where my love for the mountains began.
             </p>
             <p>
-              In the 90s I graduated to a disposable point-and-shoot that rarely came back from the print lab looking the way I hoped. During my sophomore year of high school I took a black and white photography class and upgraded to the trusty Pentax K1000. I genuinely enjoyed photography, but truth be told, I was a far better graphite pencil and oil painter than I was a photographer.
+              In the 90s, I graduated to a disposable point-and-shoot that rarely came back from the print lab looking the way I hoped. During my sophomore year of high school I took a black and white photography class and upgraded to the trusty Pentax K1000. I genuinely enjoyed photography, but truth be told, I was a far better wook worker and oil painter than I was a photographer.
             </p>
             <p>
-              Life took over and I set the camera down for nearly eight years. I went to college and studied horticulture, focusing on landscape architecture and construction. Somewhere in my early twenties it hit me — this path would never lead me back to photography or the mountains. So I went back to school and earned a BFA with a focus in photography and graphic design, including web design and development back when that was barely considered a real career. That&apos;s where my photography grew tenfold.
+              Life took over and I set the camera down for nearly eight years. I went to college and studied horticulture, focusing on landscape architecture and construction. Somewhere in my early twenties it hit me — this path would never lead me back to photography or the mountains. So I went back to school and earned a BFA with a focus in photography and graphic design (web development before it became mainstream). That&apos;s when my photography grew tenfold.
             </p>
             <p>
-              My first black and white course in 2001 changed everything. I fell in love with the full lifecycle of photography — from ideation and composition, to capturing a quality image, to my favorite part: the darkroom. Fueling that passion was a job at an iconic photography store in my hometown, where the pros — newspaper photographers, sports team shooters, hospital and aerospace industry clients — came in as much to hang out and talk shop as they did to buy anything.
+              My first black and white course in 2001 changed everything. I fell in love with the full lifecycle of photography. From ideation and composition, to capturing a quality image, to my favorite part: the darkroom. Fueling that passion was a job I hadat an iconic photography store in my hometown of Wichita, KS.
             </p>
             <p>
               At the time I was shooting a Canon Rebel 35mm with a 4.5–5.6 lens, right at the dawn of the digital age. I got to experience the early days of Photoshop and the digital darkroom firsthand. Eventually I picked up a Canon 40D — one of the first available in Wichita — and took it absolutely everywhere until it finally gave out around 2010, worn down by the sheer number of frames it had captured.
@@ -38,19 +38,19 @@ export default function AboutPage() {
 
       <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
         <div className="rounded-3xl bg-[#000000] p-8 shadow-xl shadow-slate-900/30 ring-1 ring-[#000000]">
-          <h2 className="text-2xl font-semibold text-white">Philosophy</h2>
-          <p className="mt-4 text-slate-300 leading-7">
+          <h2 className="hidden text-2xl font-semibold text-white">Philosophy</h2>
+          <p className="hidden mt-4 text-slate-300 leading-7">
             Great photography begins with intention. I focus on clean, cinematic compositions that let the subject breathe, using natural light and authentic color to bring each scene to life.
           </p>
-          <p className="mt-4 text-slate-300 leading-7">
+          <p className="hidden mt-4 text-slate-300 leading-7">
             Whether it’s a commissioned portrait, editorial project, or personal series, my goal is to make every frame feel thoughtful and memorable.
           </p>
         </div>
 
         <div className="space-y-6 rounded-3xl bg-[#000000] p-8 shadow-xl shadow-slate-900/30 ring-1 ring-[#000000]">
           <div>
-            <h2 className="text-2xl font-semibold text-white">Capabilities</h2>
-            <ul className="mt-4 space-y-3 text-slate-300">
+            <h2 className="hidden text-2xl font-semibold text-white">Capabilities</h2>
+            <ul className="hidden mt-4 space-y-3 text-slate-300">
               <li>Editorial and commercial photography</li>
               <li>Portraiture and lifestyle shoots</li>
               <li>Brand imagery and visual storytelling</li>
@@ -58,8 +58,8 @@ export default function AboutPage() {
             </ul>
           </div>
           <div>
-            <h2 className="text-2xl font-semibold text-white">Contact</h2>
-            <p className="mt-4 text-slate-300 leading-7">
+            <h2 className="hidden text-2xl font-semibold text-white">Contact</h2>
+            <p className="hidden mt-4 text-slate-300 leading-7">
               Ready to collaborate? Reach out through the contact form on future site builds or connect on social media for the latest project updates.
             </p>
           </div>
