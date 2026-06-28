@@ -60,7 +60,7 @@ export default function HeroCarousel() {
             key={index}
             type="button"
             onClick={() => setActiveIndex(index)}
-            className={`h-2.5 w-8 rounded-full transition ${index === activeIndex ? 'bg-amber-400' : 'bg-slate-600/70 hover:bg-slate-400/80'}`}
+            className={`h-2.5 w-8 rounded-full transition ${index === activeIndex ? 'bg-black' : 'bg-slate-600/70 hover:bg-slate-400/80'}`}
             aria-label={`Show slide ${index + 1}`}
           />
         ))}

@@ -51,12 +51,12 @@ export default function HomePage() {
               <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Desert</span>
             </div>
             <div className="relative overflow-hidden">
-              <Image src="/photos/zion_02.jpg" alt="Zion" width={400} height={250} className="w-full object-cover" />
-              <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Placeholder</span>
+              <Image src="/photos/panoCollection.jpg" alt="Zion" width={400} height={250} className="w-full object-cover" />
+              <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Panoramic</span>
             </div>
             <div className="relative overflow-hidden">
-              <Image src="/photos/glenCanyonDam.jpg" alt="Glen Canyon Dam" width={400} height={250} className="w-full object-cover" />
-              <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Placeholder</span>
+              <Image src="/photos/organicCollection.jpg" alt="Glen Canyon Dam" width={400} height={250} className="w-full object-cover" />
+              <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Organic</span>
             </div>
           </div>
           <p className="hidden mt-4 text-slate-300 leading-7">
