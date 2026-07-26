@@ -27,6 +27,12 @@ export default function Header() {
                 >
                   Water
                 </Link>
+                <Link
+                  href="/galleries/panoramic"
+                  className="block px-4 py-2 text-slate-200 transition hover:text-amber-300"
+                >
+                  Panoramic
+                </Link>
               </div>
             </div>
           </div>

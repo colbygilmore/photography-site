@@ -1,6 +1,6 @@
 import HeroCarousel from '../components/image_carosel/hero-carousel';
 import Image from 'next/image';
-// import Link from 'next/link';
+import Link from 'next/link';
 
 
 export default function HomePage() {
@@ -50,10 +50,10 @@ export default function HomePage() {
               <Image src="/photos/zion_03.jpg" alt="Zion" width={400} height={250} className="w-full object-cover" />
               <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Desert</span>
             </div>
-            <div className="relative overflow-hidden">
+            <Link href="/galleries/panoramic" className="relative block overflow-hidden">
               <Image src="/photos/panoCollection.jpg" alt="Zion" width={400} height={250} className="w-full object-cover" />
               <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Panoramic</span>
-            </div>
+            </Link>
             <div className="relative overflow-hidden">
               <Image src="/photos/organicCollection.jpg" alt="Glen Canyon Dam" width={400} height={250} className="w-full object-cover" />
               <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Organic</span>
