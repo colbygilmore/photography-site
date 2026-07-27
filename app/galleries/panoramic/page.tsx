@@ -11,7 +11,7 @@ const photos: Photo[] = [
   { src: '/photos/livingroom_fall_01.jpg', alt: 'Panoramic landscape' },
   { src: '/photos/gunnison_summer_01.jpg', alt: 'Panoramic landscape' },
   { src: '/photos/wireMountain_01.jpg', alt: 'Panoramic landscape' },
-  { src: '/photos/wireMountain_01.jpg', alt: 'Panoramic landscape' },
+  { src: '/photos/uintas_fall_01.jpg', alt: 'Panoramic landscape' },
 ];
 
 export default function PanoramicGalleryPage() {
@@ -20,7 +20,7 @@ export default function PanoramicGalleryPage() {
   return (
     <section className="space-y-8">
       <div className="space-y-3">
-        <p className="text-sm uppercase tracking-[0.32em] text-[#666666]">Gallery</p>
+        <p className="text-sm uppercase tracking-[0.32em] text-[#666666]">Panoramic</p>
         <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">Panoramic</h1>
         <p className="max-w-2xl text-base leading-7 text-slate-300">
           Wide-format panoramic photography capturing sweeping landscapes across the American West.
