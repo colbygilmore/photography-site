@@ -32,7 +32,7 @@ export default function PhotoLightbox({ photos, currentIndex, onClose, onNavigat
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/95"
+      className="fixed inset-x-0 bottom-0 top-20 z-50 flex items-center justify-center bg-black/95"
       onClick={onClose}
     >
       <button
@@ -66,7 +66,7 @@ export default function PhotoLightbox({ photos, currentIndex, onClose, onNavigat
           alt={photo.alt}
           width={1400}
           height={900}
-          className="max-h-[85vh] w-auto max-w-[90vw] object-contain"
+          className="max-h-[75vh] w-auto max-w-[90vw] object-contain"
           priority
         />
       </div>

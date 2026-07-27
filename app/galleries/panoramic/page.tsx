@@ -6,7 +6,12 @@ import PhotoLightbox from '../../../components/photo-lightbox';
 type Photo = { src: string; alt: string };
 
 const photos: Photo[] = [
-  { src: '/photos/panoCollection.jpg', alt: 'Panoramic landscape' },
+  { src: '/photos/emmigration_spring_01.jpg', alt: 'Panoramic landscape' },
+  { src: '/photos/guardsman_fall_01.jpg', alt: 'Panoramic landscape' },
+  { src: '/photos/livingroom_fall_01.jpg', alt: 'Panoramic landscape' },
+  { src: '/photos/gunnison_summer_01.jpg', alt: 'Panoramic landscape' },
+  { src: '/photos/wireMountain_01.jpg', alt: 'Panoramic landscape' },
+  { src: '/photos/wireMountain_01.jpg', alt: 'Panoramic landscape' },
 ];
 
 export default function PanoramicGalleryPage() {
@@ -22,19 +27,19 @@ export default function PanoramicGalleryPage() {
         </p>
       </div>
 
-      <div className="columns-1 gap-4 sm:columns-2 lg:columns-3">
+      <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
         {photos.map((photo, index) => (
           <div
-            key={photo.src}
-            className="mb-4 break-inside-avoid cursor-pointer overflow-hidden rounded-2xl"
+            key={index}
+            className="cursor-pointer overflow-hidden"
             onClick={() => setLightboxIndex(index)}
           >
             <Image
               src={photo.src}
               alt={photo.alt}
-              width={600}
+              width={1200}
               height={800}
-              className="w-full object-cover transition duration-300 hover:scale-[1.02] hover:opacity-90"
+              className="h-full w-full object-cover transition duration-300 hover:scale-[1.02] hover:opacity-90"
             />
           </div>
         ))}
