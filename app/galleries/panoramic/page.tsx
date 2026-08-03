@@ -14,6 +14,8 @@ const photos: Photo[] = [
   { src: '/photos/uintas_fall_01.jpg', alt: 'Panoramic landscape' },
   { src: '/photos/wasatchState_fall_01.jpg', alt: 'Panoramic landscape' },
   { src: '/photos/devilsCastle_winter_01.jpg', alt: 'Panoramic landscape' },
+  { src: '/photos/mtOlympus_spring_02.jpg', alt: 'Panoramic landscape' },
+  { src: '/photos/jupiterPeak_summer_01.jpg', alt: 'Panoramic landscape' },
 ];
 
 export default function PanoramicGalleryPage() {
