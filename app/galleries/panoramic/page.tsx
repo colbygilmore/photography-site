@@ -12,6 +12,8 @@ const photos: Photo[] = [
   { src: '/photos/gunnison_summer_01.jpg', alt: 'Panoramic landscape' },
   { src: '/photos/wireMountain_01.jpg', alt: 'Panoramic landscape' },
   { src: '/photos/uintas_fall_01.jpg', alt: 'Panoramic landscape' },
+  { src: '/photos/wasatchState_fall_01.jpg', alt: 'Panoramic landscape' },
+  { src: '/photos/devilsCastle_winter_01.jpg', alt: 'Panoramic landscape' },
 ];
 
 export default function PanoramicGalleryPage() {
@@ -21,9 +23,9 @@ export default function PanoramicGalleryPage() {
     <section className="space-y-8">
       <div className="space-y-3">
         <p className="text-sm uppercase tracking-[0.32em] text-[#666666]">Panoramic</p>
-        <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">Panoramic</h1>
+        <h1 className="hidden text-4xl font-semibold tracking-tight text-white sm:text-5xl">Panoramic</h1>
         <p className="max-w-2xl text-base leading-7 text-slate-300">
-          Wide-format panoramic photography capturing sweeping landscapes across the American West.
+          Wide-format panoramic photography capturing sweeping landscapes across the American West. All was accessed through trailrunning, hiking or backcountry skiing.
         </p>
       </div>
 
