@@ -7,6 +7,9 @@ type Photo = { src: string; alt: string };
 
 const photos: Photo[] = [
   { src: '/photos/glenCanyonDam.jpg', alt: 'Glen Canyon Dam, Arizona' },
+  { src: '/photos/glenCanyonDam.jpg', alt: 'Glen Canyon Dam, Arizona' },
+  { src: '/photos/glenCanyonDam.jpg', alt: 'Glen Canyon Dam, Arizona' },
+  { src: '/photos/glenCanyonDam.jpg', alt: 'Glen Canyon Dam, Arizona' },
 ];
 
 export default function WaterGalleryPage() {
@@ -22,11 +25,11 @@ export default function WaterGalleryPage() {
         </p>
       </div>
 
-      <div className="columns-1 gap-4 sm:columns-2 lg:columns-3">
+      <div className="columns-1 gap-8 sm:columns-2 lg:columns-3">
         {photos.map((photo, index) => (
           <div
-            key={photo.src}
-            className="mb-4 break-inside-avoid cursor-pointer overflow-hidden rounded-2xl"
+            key={index}
+            className="mb-8 break-inside-avoid cursor-pointer overflow-hidden rounded-2xl"
             onClick={() => setLightboxIndex(index)}
           >
             <Image
