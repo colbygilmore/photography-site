@@ -7,9 +7,9 @@ type Photo = { src: string; alt: string };
 
 const photos: Photo[] = [
   { src: '/photos/glenCanyon_summer_01.jpg', alt: 'Glen Canyon Dam, Arizona' },
-  { src: '/photos/glenCanyonDam.jpg', alt: 'Glen Canyon Dam, Arizona' },
-  { src: '/photos/glenCanyonDam.jpg', alt: 'Glen Canyon Dam, Arizona' },
-  { src: '/photos/glenCanyonDam.jpg', alt: 'Glen Canyon Dam, Arizona' },
+  { src: '/photos/water_horseShoeBend_01.jpg', alt: 'Glen Canyon Dam, Arizona' },
+  { src: '/photos/water_emmigration_winter_01.jpg', alt: 'Glen Canyon Dam, Arizona' },
+  { src: '/photos/water_butlerMiddleSchool_01.jpg', alt: 'Glen Canyon Dam, Arizona' },
 ];
 
 export default function WaterGalleryPage() {
