@@ -6,7 +6,7 @@ import PhotoLightbox from '../../../components/photo-lightbox';
 type Photo = { src: string; alt: string };
 
 const photos: Photo[] = [
-  { src: '/photos/glenCanyonDam.jpg', alt: 'Glen Canyon Dam, Arizona' },
+  { src: '/photos/glenCanyon_summer_01.jpg', alt: 'Glen Canyon Dam, Arizona' },
   { src: '/photos/glenCanyonDam.jpg', alt: 'Glen Canyon Dam, Arizona' },
   { src: '/photos/glenCanyonDam.jpg', alt: 'Glen Canyon Dam, Arizona' },
   { src: '/photos/glenCanyonDam.jpg', alt: 'Glen Canyon Dam, Arizona' },
@@ -29,15 +29,14 @@ export default function WaterGalleryPage() {
         {photos.map((photo, index) => (
           <div
             key={index}
-            className="relative cursor-pointer overflow-hidden"
+            className="relative aspect-[8/5] cursor-pointer overflow-hidden"
             onClick={() => setLightboxIndex(index)}
           >
             <Image
               src={photo.src}
               alt={photo.alt}
-              width={400}
-              height={250}
-              className="w-full object-cover transition duration-300 hover:scale-[1.02] hover:opacity-90"
+              fill
+              className="object-cover transition duration-300 hover:scale-[1.02] hover:opacity-90"
             />
           </div>
         ))}

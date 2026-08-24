@@ -6,10 +6,10 @@ import PhotoLightbox from '../../../components/photo-lightbox';
 type Photo = { src: string; alt: string };
 
 const photos: Photo[] = [
-  { src: '/photos/organicCollection.jpg', alt: 'Organic landscape forms' },
-  { src: '/photos/organicCollection.jpg', alt: 'Organic landscape forms' },
-  { src: '/photos/organicCollection.jpg', alt: 'Organic landscape forms' },
-  { src: '/photos/organicCollection.jpg', alt: 'Organic landscape forms' },
+  { src: '/photos/organic_shaggy_mane_mushroom_01.jpg', alt: 'Organic landscape forms' },
+  { src: '/photos/mushroom_summer_01.jpg', alt: 'Organic landscape forms' },
+  { src: '/photos/organic_musk_thistle_01.jpg', alt: 'Organic landscape forms' },
+  { src: '/photos/organic_pinecone_01.jpg', alt: 'Organic landscape forms' },
 ];
 
 export default function OrganicGalleryPage() {
@@ -29,15 +29,14 @@ export default function OrganicGalleryPage() {
         {photos.map((photo, index) => (
           <div
             key={index}
-            className="relative cursor-pointer overflow-hidden"
+            className="relative aspect-[8/5] cursor-pointer overflow-hidden"
             onClick={() => setLightboxIndex(index)}
           >
             <Image
               src={photo.src}
               alt={photo.alt}
-              width={400}
-              height={250}
-              className="w-full object-cover transition duration-300 hover:scale-[1.02] hover:opacity-90"
+              fill
+              className="object-cover transition duration-300 hover:scale-[1.02] hover:opacity-90"
             />
           </div>
         ))}

@@ -6,10 +6,10 @@ import PhotoLightbox from '../../../components/photo-lightbox';
 type Photo = { src: string; alt: string };
 
 const photos: Photo[] = [
-  { src: '/photos/zion_03.jpg', alt: 'Zion National Park, Utah' },
-  { src: '/photos/zion_02.jpg', alt: 'Zion National Park, Utah' },
-  { src: '/photos/NMnavajoRock.01_bw.jpg', alt: 'Navajo Rock, New Mexico' },
-  { src: '/photos/shipRockRoad.png', alt: 'Shiprock Road, New Mexico' },
+  { src: '/photos/desert_zion_eastEntrance_01.jpg', alt: 'Zion National Park, Utah' },
+  { src: '/photos/desert_zion_tower_01.jpg', alt: 'Zion National Park, Utah' },
+  { src: '/photos/desert_salida_colorado_01.jpg', alt: 'Navajo Rock, New Mexico' },
+  { src: '/photos/desert_navjoRock_01.jpg', alt: 'Shiprock Road, New Mexico' },
 ];
 
 export default function DesertGalleryPage() {
@@ -29,15 +29,14 @@ export default function DesertGalleryPage() {
         {photos.map((photo, index) => (
           <div
             key={index}
-            className="relative cursor-pointer overflow-hidden"
+            className="relative aspect-[8/5] cursor-pointer overflow-hidden"
             onClick={() => setLightboxIndex(index)}
           >
             <Image
               src={photo.src}
               alt={photo.alt}
-              width={400}
-              height={250}
-              className="w-full object-cover transition duration-300 hover:scale-[1.02] hover:opacity-90"
+              fill
+              className="object-cover transition duration-300 hover:scale-[1.02] hover:opacity-90"
             />
           </div>
         ))}
