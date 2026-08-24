@@ -6,22 +6,22 @@ import PhotoLightbox from '../../../components/photo-lightbox';
 type Photo = { src: string; alt: string };
 
 const photos: Photo[] = [
-  { src: '/photos/glenCanyonDam.jpg', alt: 'Glen Canyon Dam, Arizona' },
-  { src: '/photos/glenCanyonDam.jpg', alt: 'Glen Canyon Dam, Arizona' },
-  { src: '/photos/glenCanyonDam.jpg', alt: 'Glen Canyon Dam, Arizona' },
-  { src: '/photos/glenCanyonDam.jpg', alt: 'Glen Canyon Dam, Arizona' },
+  { src: '/photos/organicCollection.jpg', alt: 'Organic landscape forms' },
+  { src: '/photos/organicCollection.jpg', alt: 'Organic landscape forms' },
+  { src: '/photos/organicCollection.jpg', alt: 'Organic landscape forms' },
+  { src: '/photos/organicCollection.jpg', alt: 'Organic landscape forms' },
 ];
 
-export default function WaterGalleryPage() {
+export default function OrganicGalleryPage() {
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
   return (
     <section className="space-y-8">
       <div className="space-y-3">
         <p className="text-sm uppercase tracking-[0.32em] text-[#666666]">Gallery</p>
-        <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">Water</h1>
+        <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">Organic</h1>
         <p className="max-w-2xl text-base leading-7 text-slate-300">
-          Lakes, rivers, dams, and reflections — water photography from across the American West.
+          Natural textures and forms shaped by wind, water, and time across the American West.
         </p>
       </div>
 

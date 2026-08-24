@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="border-b border-[#1f1f1f] bg-[#000000] backdrop-blur-xl">
+    <header className="relative z-50 border-b border-[#1f1f1f] bg-[#000000] backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-5 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3 text-white">
           <div className="relative h-10 w-10 overflow-hidden bg-[#000000]">
@@ -28,10 +28,22 @@ export default function Header() {
                   Water
                 </Link>
                 <Link
+                  href="/galleries/desert"
+                  className="block px-4 py-2 text-slate-200 transition hover:text-amber-300"
+                >
+                  Desert
+                </Link>
+                <Link
                   href="/galleries/panoramic"
                   className="block px-4 py-2 text-slate-200 transition hover:text-amber-300"
                 >
                   Panoramic
+                </Link>
+                <Link
+                  href="/galleries/organic"
+                  className="block px-4 py-2 text-slate-200 transition hover:text-amber-300"
+                >
+                  Organic
                 </Link>
               </div>
             </div>

@@ -6,22 +6,22 @@ import PhotoLightbox from '../../../components/photo-lightbox';
 type Photo = { src: string; alt: string };
 
 const photos: Photo[] = [
-  { src: '/photos/glenCanyonDam.jpg', alt: 'Glen Canyon Dam, Arizona' },
-  { src: '/photos/glenCanyonDam.jpg', alt: 'Glen Canyon Dam, Arizona' },
-  { src: '/photos/glenCanyonDam.jpg', alt: 'Glen Canyon Dam, Arizona' },
-  { src: '/photos/glenCanyonDam.jpg', alt: 'Glen Canyon Dam, Arizona' },
+  { src: '/photos/zion_03.jpg', alt: 'Zion National Park, Utah' },
+  { src: '/photos/zion_02.jpg', alt: 'Zion National Park, Utah' },
+  { src: '/photos/NMnavajoRock.01_bw.jpg', alt: 'Navajo Rock, New Mexico' },
+  { src: '/photos/shipRockRoad.png', alt: 'Shiprock Road, New Mexico' },
 ];
 
-export default function WaterGalleryPage() {
+export default function DesertGalleryPage() {
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
   return (
     <section className="space-y-8">
       <div className="space-y-3">
         <p className="text-sm uppercase tracking-[0.32em] text-[#666666]">Gallery</p>
-        <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">Water</h1>
+        <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">Desert</h1>
         <p className="max-w-2xl text-base leading-7 text-slate-300">
-          Lakes, rivers, dams, and reflections — water photography from across the American West.
+          Canyons, mesas, and sun-scorched rock — desert photography from across the American Southwest.
         </p>
       </div>
 

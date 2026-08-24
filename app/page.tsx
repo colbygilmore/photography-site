@@ -42,22 +42,22 @@ export default function HomePage() {
 
         <div className="rounded-3xl bg-[#000000] p-8 shadow-xl shadow-slate-900/30 ring-1 ring-[#000000]">
 <div className="mt-4 grid grid-cols-1 gap-10 sm:grid-cols-2">
-            <div className="relative overflow-hidden">
+            <Link href="/galleries/water" className="relative block overflow-hidden">
               <Image src="/photos/glenCanyonDam.jpg" alt="Glen Canyon Dam" width={400} height={250} className="w-full object-cover" />
               <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Water</span>
-            </div>
-            <div className="relative overflow-hidden">
+            </Link>
+            <Link href="/galleries/desert" className="relative block overflow-hidden">
               <Image src="/photos/zion_03.jpg" alt="Zion" width={400} height={250} className="w-full object-cover" />
               <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Desert</span>
-            </div>
+            </Link>
             <Link href="/galleries/panoramic" className="relative block overflow-hidden">
               <Image src="/photos/panoCollection.jpg" alt="Zion" width={400} height={250} className="w-full object-cover" />
               <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Panoramic</span>
             </Link>
-            <div className="relative overflow-hidden">
+            <Link href="/galleries/organic" className="relative block overflow-hidden">
               <Image src="/photos/organicCollection.jpg" alt="Glen Canyon Dam" width={400} height={250} className="w-full object-cover" />
               <span className="absolute bottom-3 left-3 text-sm font-medium text-white drop-shadow-md">Organic</span>
-            </div>
+            </Link>
           </div>
           <p className="hidden mt-4 text-slate-300 leading-7">
             A focused photography portfolio brings all your best work into one place for clients to explore. It creates a professional first impression, builds trust, and increases your chances of booking future projects.
