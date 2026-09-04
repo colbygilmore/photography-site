@@ -18,10 +18,10 @@ export default function OrganicGalleryPage() {
   return (
     <section className="space-y-8">
       <div className="space-y-3">
-        <p className="text-sm uppercase tracking-[0.32em] text-[#666666]">Gallery</p>
-        <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">Organic</h1>
+       
+        <h1 className="text-sm uppercase tracking-[0.32em] text-[#666666]">Organic</h1>
         <p className="max-w-2xl text-base leading-7 text-slate-300">
-          Natural textures and forms shaped by wind, water, and time across the American West.
+          My organic gallery is meant to show some of the unique perspective I see when out in nature. Which usually entails me laying on the ground for long periods of time for the right lighting.
         </p>
       </div>
 

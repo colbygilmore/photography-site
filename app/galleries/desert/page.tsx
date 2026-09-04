@@ -18,10 +18,10 @@ export default function DesertGalleryPage() {
   return (
     <section className="space-y-8">
       <div className="space-y-3">
-        <p className="text-sm uppercase tracking-[0.32em] text-[#666666]">Gallery</p>
-        <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">Desert</h1>
+        
+        <h1 className="text-sm uppercase tracking-[0.32em] text-[#666666]">Desert</h1>
         <p className="max-w-2xl text-base leading-7 text-slate-300">
-          Canyons, mesas, and sun-scorched rock — desert photography from across the American Southwest.
+          This is my most classic gallery I'd say, but the places I go to capture these images are adventures in themselves.
         </p>
       </div>
 

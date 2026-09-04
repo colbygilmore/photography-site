@@ -27,10 +27,10 @@ export default function PanoramicGalleryPage() {
   return (
     <section className="space-y-8">
       <div className="space-y-3">
-        <p className="text-sm uppercase tracking-[0.32em] text-[#666666]">Panoramic</p>
-        <h1 className="hidden text-4xl font-semibold tracking-tight text-white sm:text-5xl">Panoramic</h1>
+        
+        <h1 className="text-sm uppercase tracking-[0.32em] text-[#666666]">Panoramic</h1>
         <p className="max-w-2xl text-base leading-7 text-slate-300">
-          Wide-format panoramic photography capturing sweeping landscapes across the American West. All was accessed through trailrunning, hiking or backcountry skiing.
+          By far, this gallery has been my favorite to shoot over the past 10 years.  There's something about finding the right compositon that makes wide-format so rewarding.
         </p>
       </div>
 

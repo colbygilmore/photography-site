@@ -18,10 +18,10 @@ export default function WaterGalleryPage() {
   return (
     <section className="space-y-8">
       <div className="space-y-3">
-        <p className="text-sm uppercase tracking-[0.32em] text-[#666666]">Gallery</p>
-        <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">Water</h1>
+        
+        <h1 className="text-sm uppercase tracking-[0.32em] text-[#666666]">Water</h1>
         <p className="max-w-2xl text-base leading-7 text-slate-300">
-          Lakes, rivers, dams, and reflections — water photography from across the American West.
+          Probably not what you were expecting under a water gallery, but that's the point. This work holds a special interest to me.
         </p>
       </div>
 
