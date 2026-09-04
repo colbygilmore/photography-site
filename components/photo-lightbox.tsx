@@ -32,7 +32,7 @@ export default function PhotoLightbox({ photos, currentIndex, onClose, onNavigat
 
   return (
     <div
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-black/95"
+      className="fixed inset-0 z-[150] flex items-center justify-center bg-black/95"
       onClick={onClose}
     >
       <button
