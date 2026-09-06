@@ -58,15 +58,15 @@ export default function PhotoLightbox({ photos, currentIndex, onClose, onNavigat
       )}
 
       <div
-        className="flex items-center justify-center p-16"
+        className="relative h-[85vh] w-[90vw] max-h-[85vh] max-w-[90vw]"
         onClick={(e) => e.stopPropagation()}
       >
         <Image
           src={photo.src}
           alt={photo.alt}
-          width={1400}
-          height={900}
-          className="max-h-[75vh] w-auto max-w-[90vw] object-contain"
+          fill
+          sizes="90vw"
+          className="object-contain"
           priority
         />
       </div>
