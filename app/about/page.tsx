@@ -11,14 +11,16 @@ export default function AboutPage() {
             <Image src="/photos/homepageBioPhoto.jpg" alt="Colby Gilmore" width={220} height={280} className="rounded-2xl object-cover" />
           </div>
           <div className="space-y-4 text-base leading-7 text-slate-300">
-            <p>
-              When I&apos;m not deep in my day job of software product management, I prefer to be outdoors. Even when I&apos;m working, I&apos;m usually thinking about the mountains, and photography.
+            <p>I grew up in the Midwest, in a childhood full of sports, rodeo, art, and science. My photography journey began in the mid-1990s at my high school, long before the digital age, and that was fine by me. For a few years, I spent more time in the darkroom than anywhere else on campus.
             </p>
             <p>
-              My goals are pretty simple: stay in shape for ski season, which usually means distance running or hiking in the nearby mountains. But that&apos;s not really the point. The real reason is to get outside, clear my head, and shoot photography.
+              In the early 2000s, I went to college as a double major in Web Design and Photography. I still spent countless hours in the darkroom, but I also started experimenting with digital photography and Photoshop, and I've been blending the two worlds ever since.
             </p>
             <p>
-              I&apos;ve been shooting for almost 30 years now, and it still doesn&apos;t bore me. There&apos;s something about chasing the right composition, light, and aperture that keeps me motivated. These galleries are my attempt to show you how I see the world. Cheers, Colby.
+              Every summer, my folks took my brother and me to the mountain west states for vacation. Something about those places stuck with me, though I couldn't explain it back then. Today, I know it as humbling and raw, and it shapes how I see the world through my lens.  There's a good chance you'll never catch me in a big city, but definitely out on some peak capturing work you'll see on my site..
+            </p>
+            <p>
+              Thanks for visiting my site and taking the time to learn more about my work.
             </p>
           </div>
         </div>
