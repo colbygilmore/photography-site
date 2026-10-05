@@ -30,7 +30,7 @@ export default function PanoramicGalleryPage() {
         
         <h1 className="text-sm uppercase tracking-[0.32em] text-[#666666]">Panoramic</h1>
         <p className="max-w-2xl text-base leading-7 text-slate-300">
-          By far, this gallery has been my favorite to shoot over the past 10 years.  There's something about finding the right compositon that makes wide-format so rewarding.
+          Big landscapes deserve a wide frame. These are the views I hiked, scouted, and waited on light to get right composition.
         </p>
       </div>
 

@@ -21,7 +21,7 @@ export default function WaterGalleryPage() {
         
         <h1 className="text-sm uppercase tracking-[0.32em] text-[#666666]">Water</h1>
         <p className="max-w-2xl text-base leading-7 text-slate-300">
-          Probably not what you were expecting under a water gallery, but that's the point. This work holds a special interest to me.
+          I chase the light where it meets water. The reflections, the stillness, the raw power of mother nature.
         </p>
       </div>
 

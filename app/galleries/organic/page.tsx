@@ -21,7 +21,7 @@ export default function OrganicGalleryPage() {
        
         <h1 className="text-sm uppercase tracking-[0.32em] text-[#666666]">Organic</h1>
         <p className="max-w-2xl text-base leading-7 text-slate-300">
-          My organic gallery is meant to show some of the unique perspective I see when out in nature. Which usually entails me laying on the ground for long periods of time for the right lighting.
+         A closer look at the shapes and textures nature builds on its own, one composition at a time.
         </p>
       </div>
 

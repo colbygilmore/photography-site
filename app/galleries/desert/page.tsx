@@ -21,7 +21,7 @@ export default function DesertGalleryPage() {
         
         <h1 className="text-sm uppercase tracking-[0.32em] text-[#666666]">Desert</h1>
         <p className="max-w-2xl text-base leading-7 text-slate-300">
-          This is my most classic gallery I'd say, but the places I go to capture these images are adventures in themselves.
+          Wide open country, hard light, and the textures you only find if you're willing to search for them.
         </p>
       </div>
 
